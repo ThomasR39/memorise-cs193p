@@ -22,7 +22,12 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-.previewInterfaceOrientation(.portrait)
+            .previewInterfaceOrientation(.portrait)
+            .preferredColorScheme(.light)
+        ContentView()
+            .previewInterfaceOrientation(.portrait)
+            .preferredColorScheme(.dark)
+
     }
 }
 
