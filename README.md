@@ -5,7 +5,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/thomasr39/memorise-cs193p?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/thomasr39/memorise-cs193p?style=for-the-badge)
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -18,8 +17,8 @@
     <br />
     <a href="https://github.com/ThomasR39/memorise-cs193p"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/ThomasR39/memorise-cs193p/tree/main/Memorise/images/demo.gif">View Demo</a>
+    <br /> 
+    <a href="https://github.com/ThomasR39/memorise-cs193p/blob/main/images/demo.gif">View Demo</a>
     ·
     <a href="https://github.com/ThomasR39/memorise-cs193p/issues">Report Bug</a>
     ·
@@ -57,12 +56,11 @@
   </ol>
 </details>
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/iphone.png" alt="iphone playing the game" width="215">
-<img src="images/ipad.png" alt="ipad playing the game"" width="500">
+| ![Image of Memorise on iPhone](images/iphone.png) | ![Image of Memorise on iPad](images/ipad.png) |
+|---------------------------------------------------|-----------------------------------------------|
 
 Memorise is a memory game built for my education of Swift. The app was made with the help of the <a href="#acknowledgments"> Stanford CS193P lecture demos. </a> Although the purpose of this app was to learn SwiftUI, I have made this repository public because I think It could be helpful for other Swift beginners.
 
@@ -95,7 +93,6 @@ git clone https://github.com/thomasr39/memorise-cs193p.git
 cd memorise-cs193p
 open -a Xcode Memorise.xcodeproj
 ```
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -122,8 +119,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Currently, memorise has a fixed set of emojis to play with. Adding another view for choosing a category of emojis to play with would be good to make the game more dynamic.
 - Currently memorise has a fixed number of cards to play with. Adding another view for choosing the number of card pairs to play with would add some flexibility to the game.
 - A difficulty system that would determine the number of pairs of cards and time limit.
-
-
 
 <!-- LICENSE -->
 ## License
